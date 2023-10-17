@@ -1,0 +1,55 @@
+/*responsive style for goddash*/
+
+@media screen and (max-width: 1920px) {
+.btn-set {
+    height: 505px;
+}
+}
+@media screen and (max-width: 1600px) {
+.btn-set {
+    height: 460px;
+}
+
+}
+@media screen and (max-width: 1367px) {
+.btn-set {
+    height: 410px;
+}
+}
+@media screen and (max-width: 1024px) {
+.btn-set {
+    height: 350px;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.box-btn-section .col-md-6{
+	width: 50%;
+}
+.btn-set {
+    height: 330px;
+}
+
+.btn-set{
+    border: 1.2px solid #000;
+}
+
+}
+
+@media screen and (max-width: 480px){
+.btn-set a {
+    padding: 70px;
+}
+.btn-set {
+    height: 170px;
+    margin: 10px 0px;
+}
+.box-btn-section .col-6{
+	padding: 0px 10px;
+}
+
+.btn-set{
+    border: 1px solid #000;
+}
+
+}
